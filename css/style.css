@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Judson&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson:wght@700&family=Quicksand:wght@300&display=swap');
 
 html {
     font-size:16px;
@@ -10,7 +10,7 @@ body {
     line-height: 1.5;
     color: #FFFFFF;
     max-width: 87.5rem;
-    margin: 4rem auto;
+    margin: 3.5rem auto;
 }
 
 header {
@@ -19,7 +19,8 @@ header {
     justify-content: space-between;
 }
 
-h1, 
+h1,
+h2, 
 nav {
     color: #FFFFFF;
     font-family: 'Judson', serif;
@@ -29,8 +30,8 @@ nav {
 }
 
 p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.75rem;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5625rem;
     font-style: normal;
     font-weight: 300;
     line-height: normal;     
@@ -59,9 +60,11 @@ main {
 }
 
 footer {
+    width: 87.5rem;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
 
