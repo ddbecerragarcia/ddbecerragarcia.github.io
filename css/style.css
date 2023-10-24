@@ -59,12 +59,43 @@ main {
 
 }
 
+section {
+    margin: 6.56rem auto;
+    display: grid;
+    grid-template: repeat(12, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
+}
+
 footer {
     width: 87.5rem;
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
+#byline {
+    text-align: center;
+    grid-column: 1/10;
+}
+
+#project_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#description_1 {
+    text-align: center;
+}
+
+#project_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#description_2 {
+
+}
