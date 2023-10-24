@@ -1,17 +1,57 @@
-html {
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Judson&display=swap');
 
+html {
+    font-size:16px;
 }
 
 body {
-
+    background-color: #5E627A;
+    font-family:'Judson', serif;
+    line-height: 1.5;
+    color: #FFFFFF;
+    max-width: 87.5rem;
+    margin: 4rem auto;
 }
 
 header {
-
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
+h1, 
 nav {
+    color: #FFFFFF;
+    font-family: 'Judson', serif;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 700;
+}
 
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.75rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;     
+}
+
+a {
+    color: #D2DFEB;
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+}
+
+a:visited,
+.selected {
+    color: #D2DFEB;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 main {
@@ -19,6 +59,9 @@ main {
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
 
