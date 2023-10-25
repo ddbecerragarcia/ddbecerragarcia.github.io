@@ -9,7 +9,7 @@ body {
     font-family:'Judson', serif;
     line-height: 1.5;
     color: #FFFFFF;
-    max-width: 87.5rem;
+    max-width: 70.5rem;
     margin: 3.5rem auto;
 }
 
@@ -91,11 +91,17 @@ footer {
 }
 
 #project_2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
 #description_2 {
+    grid-column: 1/2;
+    text-align: left;
+}
 
+#project_3 {
+    
 }
