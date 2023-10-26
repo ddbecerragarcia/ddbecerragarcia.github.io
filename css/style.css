@@ -29,6 +29,36 @@ nav {
     font-weight: 700;
 }
 
+input, textarea {
+    background-color: #5E627A;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 100%;
+    padding: 8px 16px 8px 16px;
+}
+
+label {
+    display: block;
+    margin: 16px 0px 16px, 0px:
+}
+
+textarea {
+    height: 320px;
+}
+
+button {
+    background-color: #FFFFFF;;
+    border: none;
+    font-size: 20px;
+    font-family: 'Judson', serif;
+    padding: 8px 16px 8px 16px;
+}
+
+input:focus, textarea:focus {
+    border: 2px solid #FFFFFF;
+}
+
 p {
     font-family: 'Quicksand', sans-serif;
     font-size: 1.5625rem;
@@ -91,11 +121,9 @@ footer {
 }
 
 #project_2 {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 4;
+    grid-column: 5/10
 }
+
 
 #description_2 {
     grid-column: 1/2;
@@ -103,5 +131,32 @@ footer {
 }
 
 #project_3 {
-    
+    grid-column: 1/6;
+}
+
+#description_3 {
+    grid-column: 6/10;
+    text-align: right;
+}
+
+#project_4 {
+    grid-column: 6/10;
+}
+
+#description_4 {
+    grid-column: 1/5;
+}
+
+#headshot {
+    grid-column: 1/5;
+
+}
+#about {
+    grid-column: 6/9;
+    text-align: left;
+}
+
+img {
+    max-width: 100%;
+    max-height: 350px;
 }

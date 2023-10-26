@@ -33,9 +33,27 @@
                 </a>
             </nav>
         </header>
-        <main>
-            <section>
-                <h2>I’d love to hear from you!</h2>
+        <main class="contact">
+            <section class="form">
+                <h2>I’d love to hear from you. Please email me or reach out through the contact form below.</h2>
+
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/mnqkwljy" method="POST">
+        <label>
+            Name
+            <input type="email" name="email"
+        </label>
+        <label>
+        Email:
+        <input type="email" name="email">
+        </label>
+        <label>
+        Your message:
+        <textarea name="message"></textarea>
+        </label>
+        <!-- your other form fields go here -->
+        <button type="submit">Send</button>
+        </form>
             </section>
 
         </main>
