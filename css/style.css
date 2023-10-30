@@ -9,7 +9,7 @@ body {
     font-family:'Judson', serif;
     line-height: 1.5;
     color: #FFFFFF;
-    max-width: 70.5rem;
+    max-width: 64.8rem;
     margin: 3.5rem auto;
 }
 
@@ -20,7 +20,8 @@ header {
 }
 
 h1,
-h2, 
+h2,
+footer, 
 nav {
     color: #FFFFFF;
     font-family: 'Judson', serif;
@@ -45,6 +46,11 @@ label {
 
 textarea {
     height: 320px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal; 
 }
 
 button {
@@ -98,7 +104,7 @@ section {
 }
 
 footer {
-    width: 87.5rem;
+    width: 64.8rem;
     margin: auto;
     display: flex;
     align-items: center;
@@ -147,16 +153,43 @@ footer {
     grid-column: 1/5;
 }
 
-#headshot {
-    grid-column: 1/5;
-
+#project_5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+#description_5 {
+    text-align: center;
+}
+
+#headshot {
+    grid-column: 3/5;
+}
+
 #about {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5625rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    vertical-align: text-top;
     grid-column: 6/9;
-    text-align: left;
 }
 
 img {
     max-width: 100%;
     max-height: 350px;
+}
+
+#contactline {
+    text-align: center;
+}
+
+#grad {
+    text-align: left;
+}
+
+#gradimages {
+    grid-column: 1/5;
 }
